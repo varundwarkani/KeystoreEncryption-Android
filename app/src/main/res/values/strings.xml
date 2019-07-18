@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Matic-Networks</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_account">New Account</string>
+    <string name="create_account">Create Account</string>
+    <string name="close">Close</string>
+    <string name="my_tokens">My Tokens</string>
+    <string name="show_hash">Show Hash</string>
+
+    <string name="user_exists">User already registered.</string>
+    <string name="unexpected_error">Unexpected error occurred.</string>
+    <string name="no_username">Please enter Username</string>
+    <string name="no_password">Please enter Password</string>
+    <string name="no_user">No such User exists.</string>
+</resources>

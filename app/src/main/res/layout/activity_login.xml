@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".Activities.LoginActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiUserName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:hint="@string/username"
+        app:boxStrokeColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintStart_toStartOf="@+id/startGuideline1"
+        app:layout_constraintEnd_toEndOf="@+id/endGuideline1"
+        app:layout_constraintTop_toBottomOf="@+id/topGuideline1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:maxLines="1"
+            android:inputType="text"
+            android:maxLength="120"
+            android:drawableEnd="@drawable/icon_cross"
+            android:hint="@string/username" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:boxStrokeColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        app:layout_constraintStart_toStartOf="@+id/startGuideline1"
+        app:layout_constraintEnd_toEndOf="@+id/endGuideline1"
+        app:layout_constraintTop_toBottomOf="@+id/tiUserName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:maxLength="120"
+            android:drawableEnd="@drawable/icon_cross"
+            android:hint="@string/password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+    android:id="@+id/btSignIn"
+    style="@style/Widget.MaterialComponents.Button"
+    app:rippleColor="@color/colorWhite"
+    app:strokeColor="@color/colorWhite"
+    android:layout_height="60dp"
+    android:layout_width="0dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:backgroundTint="@color/colorPrimary"
+    android:textColor="@color/colorWhite"
+    android:textSize="17sp"
+    android:layout_marginTop="10dp"
+    android:text="@string/sign_in"
+    app:layout_constraintStart_toStartOf="@+id/startGuideline1"
+    app:layout_constraintEnd_toEndOf="@+id/endGuideline1"
+    app:layout_constraintTop_toBottomOf="@+id/tiPassword"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/startGuideline1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/endGuideline1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.77"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/topGuideline1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

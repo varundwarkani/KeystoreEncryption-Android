@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    android:padding="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/grey">
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivToken"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:padding="5dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_weight="6">
+
+        <TextView
+            android:id="@+id/tvTokenName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/tvTokenCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTokenValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:layout_weight="2"/>
+
+</LinearLayout>
