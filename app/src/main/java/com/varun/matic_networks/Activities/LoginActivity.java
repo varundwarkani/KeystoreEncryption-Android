@@ -112,10 +112,13 @@ public class LoginActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
+        } else if (appDatabase.userDao().checkUserNameExists(userName) > 0) {
+            Snackbar snackBar = Snackbar.make(findViewById(android.R.id.content), R.string.wrong_password, Snackbar.LENGTH_LONG);
+            snackBar.show();
         } else {
             Snackbar snackBar = Snackbar.make(findViewById(android.R.id.content), R.string.no_user, Snackbar.LENGTH_LONG);
 
-            snackBar.setAction("Register", new View.OnClickListener() {
+            snackBar.setAction(getString(R.string.register), new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(LoginActivity.this,RegistrationActivity.class);

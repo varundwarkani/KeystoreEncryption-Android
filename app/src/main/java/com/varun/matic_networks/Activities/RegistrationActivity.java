@@ -89,7 +89,7 @@ public class RegistrationActivity extends AppCompatActivity {
         if (userExists > 0) {
             Snackbar snackBar = Snackbar.make(findViewById(android.R.id.content), R.string.user_exists, Snackbar.LENGTH_LONG);
 
-            snackBar.setAction("Login", new View.OnClickListener() {
+            snackBar.setAction(getString(R.string.login), new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(RegistrationActivity.this,LoginActivity.class);
