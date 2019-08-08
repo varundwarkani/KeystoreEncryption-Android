@@ -1,4 +1,4 @@
-package com.varun.matic_networks.Activities;
+package com.varun.keystore_security.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.google.android.material.button.MaterialButton;
-import com.varun.matic_networks.R;
+import com.varun.keystore_security.R;
 
 public class MainActivity extends AppCompatActivity {
 

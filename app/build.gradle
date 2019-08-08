@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.varun.matic_networks"
+        applicationId "com.varun.keystore_security"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -12,9 +12,9 @@ android {
     }
     buildTypes {
         debug {
-            minifyEnabled true
-            useProguard true
-            shrinkResources true
+            minifyEnabled false
+            useProguard false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {

@@ -1,4 +1,4 @@
-package com.varun.matic_networks.Activities;
+package com.varun.keystore_security.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,11 +12,11 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-import com.varun.matic_networks.R;
-import com.varun.matic_networks.RoomDB.AppDatabase;
-import com.varun.matic_networks.RoomDB.UserData;
-import com.varun.matic_networks.RoomDB.UserDataInitializer;
-import com.varun.matic_networks.Utils.Cryptor;
+import com.varun.keystore_security.R;
+import com.varun.keystore_security.RoomDB.AppDatabase;
+import com.varun.keystore_security.RoomDB.UserData;
+import com.varun.keystore_security.RoomDB.UserDataInitializer;
+import com.varun.keystore_security.Utils.Cryptor;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
@@ -26,7 +26,7 @@ import java.util.Objects;
 
 import javax.crypto.NoSuchPaddingException;
 
-import static com.varun.matic_networks.Activities.MainActivity.SHAREDPREF;
+import static com.varun.keystore_security.Activities.MainActivity.SHAREDPREF;
 
 public class RegistrationActivity extends AppCompatActivity {
 
