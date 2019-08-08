@@ -22,7 +22,4 @@ is very specific to the application. It cannot be retrieved and hence the text c
 which stores the Credit Card and other sensitive data of the users use this encryption method to keep it safe. Using room to store the 
 iv and the encrypted text will further help in adding security.
 
-![Authentication Screen](https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image1.jpg)
-![Register Screen](https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image2.jpg)
-![Login Screen](https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image3.jpg)
-![Home Screen](https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image4.jpg)
+<img src="https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image1.jpg" width="25%"></img> <img src="https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image2.jpg" width="25%"></img> <img src="https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image3.jpg" width="25%"></img> <img src="https://github.com/varundwarkani/KeystoreEncryption-Android/blob/master/App%20Images/image4.jpg" width="25%"></img>
